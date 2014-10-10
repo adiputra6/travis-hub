@@ -4,8 +4,6 @@ rvm: jruby-1.7.12
 jdk: openjdk7
 
 env:
-  global:
-  - COVERAGE=1
   matrix:
   - RAKE_TASK=spec
   - RAKE_TASK=rubocop
